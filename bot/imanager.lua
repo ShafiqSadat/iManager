@@ -232,30 +232,27 @@ function create_config( )
     "Tools",
     "Whitelist",
     },
-    sudo_users = {160149610,133477619,240956524}, --Sudo users
+    sudo_users = {113566842,65761134}, --Sudo users
     moderation = {data = 'data/moderation.json'},
-    about_text = [[<b>iManager</b> - <i>Cli</i>
+    about_text = [[<b>AFBOTS</b> - <i>Cli</i>
 		
 A new <b>AntiSpam-Bot</b> Based on <code>BlackPlus</code>
-github.com/MobinDehghani/iManager
+
 		
-@MobinDev <i>[Developer]</i>
-@MrKrn <i>[Seller]</i>
-@PrivateTeam <i>[Channel]</i>
-@leedBot <i>[API-Bot]</i>
+@AFBots_admin <i>[Developer]</i>
+@AFBOTS <i>[Channel]</i>
+@AFNEROBOT <i>[API-Bot]</i>
 Special thanks to :
-@Namusn - Parsaw
-@Sudo1 - Amir
-@Alirezamee - AliReza
+@NimaBd - Parsaw
 		
 Bot Support :
-https://telegram.me/joinchat/CYuwakBXO9sosgQ_8xuYTw ]],
+@AFAdmin_bot ]],
     help_text_realm = [[ ]],
     help_text = [[ ]],
 	help_text_super =[[ ▫️For <b>Members</b> :
-telegram.me/PrivateTeam/65
+telegram.me/AFBots
 ▫️For <b>Modrators</b> :
-telegram.me/PrivateTeam/66 ]],
+telegram.me/AFBOTS ]],
   }
   serialize_to_file(config, './data/config.lua')
   print('Config Address ./data/config.lua')
